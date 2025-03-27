@@ -183,6 +183,6 @@ Now each use of the button has an assign of `color="..."` and we can customize o
 ## Recap!
 
 - You can create components in your LiveViews if you create a function that receives `assigns` and returns HEEx.
-- HTML components and tags are separated by the presence of a leading `.` at on its name to avoid conflicts.
+- HTML components and tags are separated by the presence of a leading `.` at its name to avoid conflicts.
 - In a component you decide where to render the child slot using `render_slot(@inner_block)`.
 - Your components can reuse code efficiently with attributes.
