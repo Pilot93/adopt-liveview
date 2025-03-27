@@ -136,5 +136,5 @@ Everything works normally.
 
 - The `mount/3` callback runs when your LiveView is initializing.
 - The `socket` data structure contains the state of your LiveView for this user at the moment.
-- We were able to add `assigns` using the `assigns/2` function passing the `socket` and the new values.
+- We were able to add `assigns` using the `assign/2` function passing the `socket` and the new values.
 - The `render/1` function has a shortcut for writing assigns using `@assign_name`.
